@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { Agent } from '@gitroom/frontend/components/agents/agent';
 export const metadata: Metadata = {
-  title: 'Postiz - Agent',
+  title: 'RSC Social - Agent',
   description: 'agents',
 };
 export default async function Layout({

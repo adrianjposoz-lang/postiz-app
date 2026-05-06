@@ -111,6 +111,18 @@ export const LayoutComponent = ({ children }: { children: ReactNode }) => {
                         <div className="flex flex-col h-full gap-[32px] flex-1 py-[12px]">
                           <Logo />
                           <TopMenu />
+                          <a
+                            href="https://github.com/gitroomhq/postiz-app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-auto text-[9px] text-textItemBlur leading-[1.4] text-center hover:text-textColor transition-colors"
+                          >
+                            Built on
+                            <br />
+                            Postiz
+                            <br />
+                            AGPL-3.0
+                          </a>
                         </div>
                       </div>
                     </div>

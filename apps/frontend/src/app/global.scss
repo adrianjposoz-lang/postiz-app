@@ -572,7 +572,7 @@ html[dir='rtl'] [dir='ltr'] {
 
 .ProseMirror .mention {
   font-weight: bold;
-  color: #ae8afc;
+  color: #E8392A;
 }
 
 .ProseMirror ul,
@@ -675,7 +675,7 @@ html[dir='rtl'] [dir='ltr'] {
     background-color: var(--purple-light);
     border-radius: 0.4rem;
     box-decoration-break: clone;
-    color: #ae8afc;
+    color: #E8392A;
     &::after {
       content: '\200B';
     }
